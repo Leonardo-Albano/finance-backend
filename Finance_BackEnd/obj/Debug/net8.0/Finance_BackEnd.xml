@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Finance_BackEnd</name>
+    </assembly>
+    <members>
+        <member name="M:Finance_BackEnd.Controllers.CategoriesController.Get">
+            <summary>
+            Obtém todas as categorias.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.CategoriesController.GetById(System.Int32)">
+            <summary>
+            Obtém uma categoria por ID.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.CategoriesController.Post(Finance_BackEnd.Models.DTOs.CategoryDTO)">
+            <summary>
+            Cria uma nova categoria.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.CategoriesController.Put(System.Int32,Finance_BackEnd.Models.DTOs.CategoryDTO)">
+            <summary>
+            Atualiza uma categoria existente.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.CategoriesController.Delete(System.Int32)">
+            <summary>
+            Exclui uma categoria.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.PeopleController.Get">
+            <summary>
+            Obtém todas as pessoas.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.PeopleController.GetById(System.Int32)">
+            <summary>
+            Obtém uma pessoa por ID.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.PeopleController.Post(Finance_BackEnd.Models.DTOs.PersonDTO)">
+            <summary>
+            Cria uma nova pessoa.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.PeopleController.Put(System.Int32,Finance_BackEnd.Models.DTOs.PersonDTO)">
+            <summary>
+            Atualiza uma pessoa existente.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.PeopleController.Delete(System.Int32)">
+            <summary>
+            Exclui uma pessoa.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.TransactionsController.Get">
+            <summary>
+            Obtém todas as transações.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.TransactionsController.GetById(System.Int32)">
+            <summary>
+            Obtém uma transação por ID.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.TransactionsController.Post(Finance_BackEnd.Models.DTOs.TransactionDto)">
+            <summary>
+            Cria uma nova transação.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.TransactionsController.Put(System.Int32,Finance_BackEnd.Models.DTOs.TransactionDto)">
+            <summary>
+            Atualiza uma transação existente.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.TransactionsController.Delete(System.Int32)">
+            <summary>
+            Exclui uma transação.
+            </summary>
+        </member>
+        <member name="M:Finance_BackEnd.Controllers.TransactionsController.GetReport">
+            <summary>
+            Obtém o relatório financeiro consolidado por pessoa.
+            </summary>
+        </member>
+        <member name="T:Finance_BackEnd.Data.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Finance_BackEnd.Data.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Finance_BackEnd.Data.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Finance_BackEnd.Data.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
