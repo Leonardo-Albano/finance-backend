@@ -9,6 +9,14 @@
 ##  Sobre o Projeto
 Esta é uma API robusta para controle financeiro pessoal, desenvolvida para demonstrar boas práticas de arquitetura e desenvolvimento em **.NET 8**. O sistema permite a gestão de pessoas, categorias e transações financeiras, aplicando regras de negócio rigorosas e garantindo a integridade dos dados.
 
+## ✅ Checklist de Requisitos (Status)
+- [x] CRUD Completo de Pessoas (Back & Front)
+- [x] Cadastro e Listagem de Categorias com 'Purpose'
+- [x] Lançamento de Transações (Validando Menores e Categorias)
+- [x] Deleção em Cascata (Pessoa -> Transações)
+- [x] Relatório Consolidado (Dashboard Analytics)
+- [x] Testes Unitários de Regras de Negócio (Back-end)
+
 ## 🛠 Tecnologias Utilizadas
 * **Runtime:** .NET 8
 * **ORM:** Entity Framework Core
@@ -30,6 +38,10 @@ Foquei em padrões que garantem a escalabilidade e a fácil manutenção do cód
 2. **Limites de Integridade:** Validação De comprimento de strings (400 caracteres para Categorias e 200 para Pessoas).
 3. **Relatório Consolidado:** Endpoint específico que realiza a agregação de dados no backend para retornar totais de entrada, saída e saldo por pessoa.
 
+## 🛡️ Camada de Persistência e Integridade
+* **Cascade Delete:** Implementada a exclusão em cascata no Entity Framework Core. Ao remover uma `Person`, todas as suas `Transactions` vinculadas são expurgadas do banco automaticamente, garantindo que não existam registros órfãos.
+* **Validação Cruzada (Cross-Entity Validation):** O `TransactionService` valida se a `Category` selecionada é compatível com o tipo de transação (ex: impede o uso de uma categoria exclusiva de 'Receita' em uma transação de 'Despesa').
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos
@@ -38,7 +50,7 @@ Foquei em padrões que garantem a escalabilidade e a fácil manutenção do cód
 ### Passo a Passo
 1. **Clonar o repositório:**
 ```
-git clone [https://github.com/](https://github.com/)Leonardo-Albano/Finance_BackEnd.git
+git clone https://github.com/Leonardo-Albano/finance-backend.git
 ```
 
 2. **Restaurar dependências:**
@@ -75,6 +87,11 @@ Para rodar os testes unitários:
 
 ```
 dotnet test
+```
+
+5. Caso ainda não possua o código do front-end, clone-o, e siga as instruções contidas no README.md
+```
+git clone https://github.com/Leonardo-Albano/finance-frontend.git
 ```
 
 Desenvolvido por Leonardo Albano
