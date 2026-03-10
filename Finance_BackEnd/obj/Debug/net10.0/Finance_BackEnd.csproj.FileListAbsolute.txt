@@ -1,8 +1,0 @@
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.csproj.AssemblyReference.cache
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.GeneratedMSBuildEditorConfig.editorconfig
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.AssemblyInfoInputs.cache
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.AssemblyInfo.cs
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.csproj.CoreCompileInputs.cache
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.MvcApplicationPartsAssemblyInfo.cs
-C:\Workspace\NET\Finance_BackEnd\Finance_BackEnd\obj\Debug\net10.0\Finance_BackEnd.MvcApplicationPartsAssemblyInfo.cache
